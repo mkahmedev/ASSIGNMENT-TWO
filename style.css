@@ -22,7 +22,13 @@
    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
     background-color: #f5f8ff;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -90,7 +96,6 @@ nav{
 }
 .hero-heading{
     width:570px ;
-    height:178px ;
 }
 .hero-pera{
     color: rgba(0, 0, 0, 0.5);
@@ -122,22 +127,17 @@ nav{
      
  }
  .flwour-containar{
-      display: flex;
-      flex-wrap: wrap;
-
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 120px;
  }
- .flowr{
-    max-width:270px ;
-   max-height: 484.94px;
-     margin-left: 15px;
-    margin-top: 30px; 
 
- }
  .flowr img{
-   width:270px ;
-    height: 322.94px;
+   width: 100%;
+   height: auto;
  }
+
  .flowr h4 {
     font-size: 22px;
     font-weight: 500;
@@ -151,7 +151,7 @@ nav{
    margin-top: 10px;
   }
   .btn{
-    width:270px ;
+    width:100%;
     height:50px ;
     background-color:rgb(233, 90, 8) ;
     color:rgb(255, 255, 255);
@@ -163,7 +163,7 @@ nav{
   .flowur-stor{
     margin-top: 210px;
     display: flex;
-    position: a;
+    gap: 60px; 
   }
 .stor{
     width:540px ;
@@ -171,7 +171,7 @@ nav{
    
 }
 .flour-child{
-    margin-left: 60px;
+    width: 50%;
     margin-top: 38px;
 }
 .flour-child h1{
@@ -179,6 +179,9 @@ nav{
     font-weight:bold ;
     color: #000;
     margin-top: 38px;
+}
+.flour-chil ul {
+    margin-left: 20px;
 }
 .flour-child li{
     font-size:22px ;
@@ -188,6 +191,7 @@ nav{
 }
 .flowur-stor-left {
     position: relative;
+    width: 50%;
 }
 .bach{
     width: 286px;
@@ -199,7 +203,7 @@ nav{
 }
 .shesh-section{
     margin-top: 133px;
-    margin-bottom: 121px;
+    margin-bottom: 111px;
 }
 
 .end-section h1{
@@ -216,20 +220,192 @@ nav{
     color:rgba(0, 0, 0, 0.5) ;
     text-align: center;
 }
- .shesh-section .malti-img img{
-   width:367px ;
-   height:201px ;
-   margin-top: 25px;
-   border-radius: 14px;
-   background: rgb(200, 200, 200);
+.frist-flowur h1{
+    font-size:20px ;
+    font-weight:700 ;
+    color:rgb(212, 14, 14) ;
+
+}
+.frist-flowur h3{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.malti-imgs {
+    align-items: stretch;
+    gap: 28px;
+}
+
+.malti-img {
+    width: 30%;
+}
+
+.malti-img-1 {
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    height: 206px;
+    margin-bottom: 25px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 19px;
+    flex-direction: column;
+    border-radius: 14px;
+    background-size: cover;
+}
+
+.malti-img-2 {
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 19px;
+    flex-direction: column;
+    border-radius: 14px;
+    background-size: cover;
+}
+.malti-img-3 {
+    background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 19px;
+    border-radius: 22px;
+    background-size: cover;
+    width: 70%;
+}
+.comon{
+    background: transparent;
+    color: aliceblue;
+    font-size:20px ;
+    font-weight:bold;
+}
+.comona{
+     background: transparent;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.malti-img-3 .comon{
+    font-size:40px ;
+   
+}
+.malti-img-3 .comona{
+    font-size:28px ;
+   
+}
+.form{
+    height: 533px;
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+}
+
+.form h1{
+    font-size:50px ;
+    font-weight:bold ;
+    background: transparent;
+    color:white ;
+    text-align: center;
+   
+}
+.form input{
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+   
+}
+form{
+    display: flex;
+}
+form .email{
+    width:544px ;
+    height:50px ;
+     font-size: 16px;
+    padding: 20px;
+}
+form .button{
+    width: 186px;
+    height: 50px;
+    font-size:16px ;
+    font-weight:600 ;
+    color:white ;
+    background-color: #E95A08;
+
+}
+
+footer {
+    background: #fbfcff;
+    padding: 50px;
+}
+
+.footear {
+    display: flex;
+    align-items: flex-start;
+    gap: 110px;
     
 }
 
-.zabo{
-    width:753px;
-    height:423.13px ;
-    background:rgba(0, 0, 0, 0.4) ;
-    border-radius:22px ;
-    margin-top: 142px;
+.box-one {
+    width: 315px;
+}
+.box-one p{
+    font-size:22px ;
+    font-weight:400 ;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
+
+}
+
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size:22px ;
+    font-weight:400 ;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 32px;
+    display: block;
+}
+
+footer ul li:last-child a{
+    margin-bottom: 0;
+}
+.box-four li{
+    list-style: none;
+}
+.box-four ul{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.box-four ul li a{
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
 }
