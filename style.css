@@ -123,7 +123,8 @@ nav{
  }
  .flwour-containar{
       display: flex;
-    flex-wrap: wrap;
+      flex-wrap: wrap;
+
 
  }
  .flowr{
@@ -159,5 +160,73 @@ nav{
     font-size: 16px;
     margin-top: 30px;
   }
+  .flowur-stor{
+    margin-top: 210px;
+    display: flex;
+    position: a;
+  }
+.stor{
+    width:540px ;
+    height: 597px;
+   
+}
+.flour-child{
+    margin-left: 60px;
+    margin-top: 38px;
+}
+.flour-child h1{
+    font-size:50px ;
+    font-weight:bold ;
+    color: #000;
+    margin-top: 38px;
+}
+.flour-child li{
+    font-size:22px ;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.bach{
+     width:286px ;
+    height: 286px;
+    background: transparent;
+   position: absolute;
+   bottom: -1600px;
+   left: 460px;
+}
+.shesh-section{
+    margin-top: 133px;
+    margin-bottom: 121px;
+}
 
+.end-section h1{
+    font-size:50px ;
+    font-weight:bold ;
+    text-align: center;
+}
+.end-section h1 span{
+    color: #E95A08;
+}
+.end-section p{
+    font-size:22px ;
+    font-weight:400 ;
+    color:rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+}
+ .shesh-section .malti-img img{
+   width:367px ;
+   height:201px ;
+   margin-top: 25px;
+   border-radius: 14px;
+   background: rgb(200, 200, 200);
+    display: flex;
+    
+}
 
+.zabo{
+    width:753px;
+    height:423.13px ;
+    background:rgba(0, 0, 0, 0.4) ;
+    border-radius:22px ;
+    margin-top: 142px;
+}
