@@ -409,6 +409,10 @@ footer ul li:last-child a{
         
         padding: 0 20px;
     }
+
+    .footear {
+        gap: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -424,24 +428,40 @@ footer ul li:last-child a{
     .malti-img-1{
         text-align: center;
     }
+
+    .flowur-stor{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .flour-child {
+        width: 100%;
+        margin-top: 0;
+    }
+    .bach{
+        display: none;
+    }
+    .flowur-stor-left{
+        width: 100%;
+    }
+    .stor{
+        width: 100%;
+    }
+    .flwour-containar {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .box-four ul a{
         width: 20px;
         margin-left: -10px;
        
         
     }
-    img{
-        width: 80%;
-    }
     .footear{
-       
          padding: 0 10px;
         
     }
 
     .box-one p{
         font-size: 20px;
-        width: 100px;
        
     }
     
@@ -458,22 +478,42 @@ footer ul li:last-child a{
       min-width:63px;
       min-height:38px;
     }
-     nav a{ 
-        display: none;
-            
-        }
-        nav a span{
-           font-size: 50px;
-           background-color: #000
-        }
-        .hero-img{
-            display: grid;
-            grid-template-rows: repeat(1, 1fr);
-            width:393.18px ;
-            height:245px ;
-        }
-        .flwour-containar{
-            display: grid;
-            grid-template-rows: repeat(2, 2fr);
-        }
+    nav li{ 
+        display: none;        
+    }
+    nav li:last-child {
+        display: block;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+
+    .hero-img{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        width:393.18px ;
+        height:245px ;
+    }
+    .flwour-containar{
+        display: grid;
+        grid-template-rows: repeat(2, 2fr);
+    }
+    .footear{
+        flex-direction: column;
+        gap: 25px;
+    }
+    footer ul li a{
+        margin-bottom:20px ;
+    }
+    .box-four{
+        width: 286px;
+        height: 36px;
+
+    }
+    .malti-imgs{
+        flex-direction: column;
+    }
+
+    .malti-img, .malti-img-3{
+        width: 100%;
+    }
 }
