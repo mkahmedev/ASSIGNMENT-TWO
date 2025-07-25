@@ -474,9 +474,15 @@ footer ul li:last-child a{
    }
 }
 @media screen and (max-width: 450px) {
+    .Our-Plants h1, .flour-child h1, .end-section h1{
+        font-size: 24px;
+    }
+    .hero-pera, .Our-Plants p, .flour-child li{
+        font-size: 14px;
+    }
     nav img {
-      min-width:63px;
-      min-height:38px;
+        max-width: 63px;
+        height: auto;
     }
     nav li{ 
         display: none;        
@@ -489,6 +495,7 @@ footer ul li:last-child a{
     .flwour-containar{
         display: grid;
         grid-template-rows: repeat(2, 2fr);
+        margin-top: 40px;
     }
     .footear{
         flex-direction: column;
@@ -521,9 +528,10 @@ footer ul li:last-child a{
         width: 70%;
         margin-bottom:10px;;
     }
-    .margin-top{
-        margin-top: 100px;
+    .margin-top, .flowur-stor, .shesh-section{
+        margin-top: 40px;
     }
+    
     .comon{
         text-align: center;
         font-size: 20px;
@@ -535,5 +543,27 @@ footer ul li:last-child a{
     .malti-img-3 .comona{
         font-size: 16px;
     }
-    
+    .box-four,
+    .box-one{
+        width: 100%;
+    }
+    .form {
+        height: 275px;
+    }
+    .form h1{
+        font-size: 20px;
+    }
+    form .email{
+        width: 160px;
+    }
+    form .button{
+        font-size: 15px;
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .flowr h4, .flowr h2, .btn{
+        font-size: 14px;
+    }
+
 }
