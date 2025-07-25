@@ -410,3 +410,70 @@ footer ul li:last-child a{
         padding: 0 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        
+        padding: 0 20px;
+
+    }
+    .hero-heading h1 {
+        font-size: 45px;
+    }
+    .malti-img-1{
+        text-align: center;
+    }
+    .box-four ul a{
+        width: 20px;
+        margin-left: -10px;
+       
+        
+    }
+    img{
+        width: 80%;
+    }
+    .footear{
+       
+         padding: 0 10px;
+        
+    }
+
+    .box-one p{
+        font-size: 20px;
+        width: 100px;
+       
+    }
+    
+  
+
+   footer .a-link a{
+    width: 80px;
+    font-size: 15px;
+      
+   }
+}
+@media screen and (max-width: 425px) {
+    nav img {
+      min-width:63px;
+      min-height:38px;
+    }
+     nav a{ 
+        display: none;
+            
+        }
+        nav a span{
+           font-size: 50px;
+           background-color: #000
+        }
+        .hero-img{
+            display: grid;
+            grid-template-rows: repeat(1, 1fr);
+            width:393.18px ;
+            height:245px ;
+        }
+        .flwour-containar{
+            display: grid;
+            grid-template-rows: repeat(2, 2fr);
+        }
+}
