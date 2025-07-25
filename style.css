@@ -473,7 +473,7 @@ footer ul li:last-child a{
       
    }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
     nav img {
       min-width:63px;
       min-height:38px;
@@ -485,13 +485,6 @@ footer ul li:last-child a{
         display: block;
         font-size: 15px;
         justify-content: space-between;
-    }
-
-    .hero-img{
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        width:393.18px ;
-        height:245px ;
     }
     .flwour-containar{
         display: grid;
@@ -516,4 +509,31 @@ footer ul li:last-child a{
     .malti-img, .malti-img-3{
         width: 100%;
     }
+    .hero-child{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .hero-heading{
+        width: auto;
+    }
+    .hero-heading h1{
+        font-size: 24px;
+        width: 70%;
+        margin-bottom:10px;;
+    }
+    .margin-top{
+        margin-top: 100px;
+    }
+    .comon{
+        text-align: center;
+        font-size: 20px;
+    }
+    .malti-img-3, .malti-img-2, .malti-img-1 {
+        padding: 60px 40px;
+
+    }
+    .malti-img-3 .comona{
+        font-size: 16px;
+    }
+    
 }
